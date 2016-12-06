@@ -1,6 +1,6 @@
 # RFPL table parser
 
-rfpl_parser.rb is a Russian Premier League [RFPL](http://rfpl.org) standing table parser, based on Ruby.
+rfpl_parser.rb is a Russian Premier League [RFPL](http://rfpl.org) standings table parser, based on Ruby.
 
 ### How to run
 
