@@ -42,6 +42,3 @@ class RfplParser
     end
   end
 end
-
-
-puts RfplParser.get_data
