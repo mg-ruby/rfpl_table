@@ -1,8 +1,8 @@
 require 'open-uri'
 require 'nokogiri'
-require "net/http"
-require "uri"
-require "json"
+require 'net/http'
+require 'uri'
+require 'json'
 
 class RfplParser
 
