@@ -8,13 +8,13 @@ class RfplParser
 
   TABLE_URL = 'https://premierliga.ru/ajax/tournament-table/'
 	
-
   def self.get_data(season_id = 696)
     # 2012/2013 = 648
     # 2013/2014 = 654
     # 2014/2015 = 675
-    # 2014/2015 = 680  
-    # 2014/2015 = 685      
+    # 2016/2017 = 680  
+    # 2017/2018 = 685  
+    # 2018/2019 = 696 
     begin
         uri = URI.parse(TABLE_URL)
         res = Net::HTTP.post_form(uri, { ajaxAction: 'getYearStats-tournament-table', :season => season_id })
