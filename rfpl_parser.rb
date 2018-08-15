@@ -6,9 +6,10 @@ require 'json'
 
 class RfplParser
 
-  TABLE_URL = 'http://rfpl.org/ajax/tournament-table/'
+  TABLE_URL = 'https://premierliga.ru/ajax/tournament-table/'
+	
 
-  def self.get_data(season_id = 685)
+  def self.get_data(season_id = 696)
     # 2012/2013 = 648
     # 2013/2014 = 654
     # 2014/2015 = 675
@@ -42,3 +43,4 @@ class RfplParser
     end
   end
 end
+
